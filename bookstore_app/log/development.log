@@ -1,0 +1,42 @@
+Started GET "/" for ::1 at 2020-01-20 15:21:44 +0000
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/student/.rvm/gems/ruby-2.6.3/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/student/.rvm/gems/ruby-2.6.3/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 27.8ms | Allocations: 478)
+Completed 200 OK in 70ms (Views: 37.2ms | ActiveRecord: 0.0ms | Allocations: 2726)
+
+
+Started GET "/static_pages/home" for ::1 at 2020-01-20 15:22:39 +0000
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 204)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/student/myRubyApps/rubyOnRails/bookstore_app/public/packs
+[Webpacker] Hash: 53154d7baad00c6a1252
+Version: webpack 4.41.5
+Time: 5009ms
+Built at: 20/01/2020 15:22:47
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0b67a3cc2fcde6055024.js    124 KiB  application  [emitted] [immutable]  application
+js/application-0b67a3cc2fcde6055024.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-0b67a3cc2fcde6055024.js js/application-0b67a3cc2fcde6055024.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 8645ms (Views: 8621.1ms | ActiveRecord: 0.0ms | Allocations: 19490)
+
+
+Started GET "/static_pages/home" for ::1 at 2020-01-20 15:30:08 +0000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 73ms (Views: 52.2ms | ActiveRecord: 0.0ms | Allocations: 4940)
+
+
